@@ -6,7 +6,7 @@ function Bag(props){
         margin: "20px 0"
     }
     return(
-        <div className={bag}>
+        <div className={{ padding:"20px", background:"blue"}}>
             {props.children}
         </div>
     )
