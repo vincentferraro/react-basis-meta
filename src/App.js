@@ -13,9 +13,12 @@ import './App.css';
 // import DarkMode from './functions/darkMode';
 import Promo2 from './components/promo/Promo2';
 import Dog from './components/dataFlow/Dog';
+import InputComponent from './components/hooks/InputComponent';
+import Form from './components/hooks/Form';
+import InputUseRef from './components/hooks/InputUseRef';
+import Heading from './components/hooks/Heading';
 
-
-
+import PropDrilling from './components/app4/PropDrilling';
 // const bool = false;
 // const str1 = 'The :'
 
@@ -56,7 +59,19 @@ export default function App() {
         <Promo2 />
         <Promo2 />
         <Dog />
-        
+        <InputComponent />
+        <br></br>
+        <br></br>
+        <br></br>
+        <Form />
+        <InputUseRef />
+
+         <br></br>
+         <br></br>
+         <br></br>
+          <br></br>
+          <Heading />
+          <PropDrilling />
     </div>
 
   )
