@@ -11,14 +11,22 @@ import './App.css';
 // import Btn from './components/Btn';
 // import App3 from './components/app3/App3';
 // import DarkMode from './functions/darkMode';
-import Promo2 from './components/promo/Promo2';
-import Dog from './components/dataFlow/Dog';
-import InputComponent from './components/hooks/InputComponent';
-import Form from './components/hooks/Form';
-import InputUseRef from './components/hooks/InputUseRef';
-import Heading from './components/hooks/Heading';
+// import Promo2 from './components/promo/Promo2';
+// import Dog from './components/dataFlow/Dog';
+// import InputComponent from './components/hooks/InputComponent';
+// import Form from './components/hooks/Form';
+// import InputUseRef from './components/hooks/InputUseRef';
+// import Heading from './components/hooks/Heading';
+// import PropDrilling from './components/app4/PropDrilling';
 
-import PropDrilling from './components/app4/PropDrilling';
+import Counter from'./components/contextAPI/Counter'
+import MealsList from './components/contextAPI/MealsList';
+import MealsListProvider from './components/contextAPI/MealsListProvider';
+
+
+import Wallet from './components/Wallet';
+
+import App5 from './components/Fruit/App5';
 // const bool = false;
 // const str1 = 'The :'
 
@@ -56,7 +64,7 @@ export default function App() {
         <Btn />
         <DarkMode />
         <App3 /> */}
-        <Promo2 />
+        {/* <Promo2 />
         <Promo2 />
         <Dog />
         <InputComponent />
@@ -71,7 +79,15 @@ export default function App() {
          <br></br>
           <br></br>
           <Heading />
-          <PropDrilling />
+          <PropDrilling /> */}
+
+          <MealsListProvider>
+            <MealsList/>
+            <Counter />
+          </MealsListProvider>
+
+          <Wallet />
+          <App5 />
     </div>
 
   )
