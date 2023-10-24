@@ -6,6 +6,8 @@ import Home from './components/navigation/Home';
 import CurrentMessage from './components/ternary/CurrentMessage';
 import LogicalAndExample from './components/ternary/LogicalAndExample';
 import logo from'../src/assets/images/7.jpg'
+import Video from './components/video/Video';
+import SongSelection from './components/song/SongSelection';
 export default function App() {
   return (
     <div className="App">
@@ -22,6 +24,12 @@ export default function App() {
       <div>
         <h1>Below the image of the logo:</h1>
         <img height={300}src={logo} alt="lorem ipsum logo" />
+      </div>
+      <div>
+      <Video />
+      </div>
+      <div style={{border:"1px solid black"}}>
+        <SongSelection />
       </div>
           </div>
   )
