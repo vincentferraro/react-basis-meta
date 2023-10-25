@@ -1,6 +1,7 @@
 import "./App.css";
 import DessertsList from "../src/components/advanced/DessertList";
-
+import { useState } from "react";
+import Todo from "./components/advanced/Todo";
 const desserts = [
   {
     name: "Chocolate Cake",
@@ -25,10 +26,27 @@ const desserts = [
 ];
 
 function App() {
+  const [todos,setTodos]=useState([
+    {id:"todo1",
+    createdAt:"18:30" },
+    {id:"todo2",
+    createdAt:"20:30" }
+])
+
+  function reverseOrder(){
+    setTodos([...todos].reverse())
+  }
+  
   return (
     <div className="App">
+      
       <h2>List of low calorie desserts:</h2>
       <DessertsList data={desserts} />
+      <div>
+        <button onClick={ reverseOrder}>Reverse</button>
+      {todos.map((todo,index) => <Todo key={todo.id}id={todo.id} createdAt={todo.createdAt} />)}
+      </div>
+      
     </div>
   );
 }
