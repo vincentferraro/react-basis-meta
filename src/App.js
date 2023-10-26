@@ -5,14 +5,15 @@ import "./App.css";
 
 // import FetchRandomUser from "./components/advanced/FetchRandomUser";
 // import ReduceComponent from "./components/advanced/ReduceComponent";
-import Number from "./components/advanced/customHooks/Number";
-import RefComponent from "./components/advanced/RefComponent";
+// import Number from "./components/advanced/customHooks/Number";
+// import RefComponent from "./components/advanced/RefComponent";
+// import WeekDay from "./components/advanced/WeekDay";
+import Children from "./components/advanced/Children";
 function App() {
   
   return (
     <div>   
-      <RefComponent />
-      <Number />
+      <Children />
     </div>
   );
 }
