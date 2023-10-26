@@ -2,12 +2,15 @@ import "./App.css";
 // import GoalsForm from "./components/advanced/GoalsForm";
 // import GiftCard from "./components/advanced/GifCard";
 // import Hooks from "./components/advanced/Hooks";
-import Fetch from "./components/advanced/Fetch";
+
+// import FetchRandomUser from "./components/advanced/FetchRandomUser";
+// import ReduceComponent from "./components/advanced/ReduceComponent";
+import RefComponent from "./components/advanced/RefComponent";
 function App() {
   
   return (
     <div>   
-      <Fetch />
+      <RefComponent />
     </div>
   );
 }
