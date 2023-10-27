@@ -8,12 +8,13 @@ import "./App.css";
 // import Number from "./components/advanced/customHooks/Number";
 // import RefComponent from "./components/advanced/RefComponent";
 // import WeekDay from "./components/advanced/WeekDay";
-import Children from "./components/advanced/Children";
+// import Children from "./components/advanced/Children";
+import PointMouse from "./components/advanced/PointMouse";
 function App() {
   
   return (
     <div>   
-      <Children />
+      <PointMouse />
     </div>
   );
 }
