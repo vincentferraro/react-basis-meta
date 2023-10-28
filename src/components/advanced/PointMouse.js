@@ -57,6 +57,7 @@ const PointMouseLogger =({ mousePosition})=>{
 
 const PanelMouseTracker = withMousePosition(PanelMouseLogger)
 const PointMouseTracker = withMousePosition(PointMouseLogger)
+
 const PointMouse = ()=>{
 
     return(<div>

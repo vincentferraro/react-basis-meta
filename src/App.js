@@ -9,12 +9,16 @@ import "./App.css";
 // import RefComponent from "./components/advanced/RefComponent";
 // import WeekDay from "./components/advanced/WeekDay";
 // import Children from "./components/advanced/Children";
-import PointMouse from "./components/advanced/PointMouse";
+// import PointMouse from "./components/advanced/PointMouse"
+import DataFetch from "./components/advanced/DataFetch";
+import LiveOrders from "./components/advanced/LiveOrders";
 function App() {
   
   return (
     <div>   
-      <PointMouse />
+      <h1> Hello</h1>
+      <DataFetch />
+      <LiveOrders />
     </div>
   );
 }
